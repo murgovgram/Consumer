@@ -20,13 +20,13 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-      
-      },
-      fontFamily: {
-        Montserrat: ['Montserrat , sans-serif'],
-      },
-      
+
     },
+    fontFamily: {
+      Montserrat: ['Montserrat , sans-serif'],
+    },
+
+  },
   variants: {
     extend: {},
     display: ['responsive', 'group-hover', 'group-focus'],
@@ -35,9 +35,9 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     // ...
     require('tailwindcss-absolute-center')(
-    {
+      {
         variants: ['responsive'],
-    },
-  ),
+      },
+    ),
   ],
 }
